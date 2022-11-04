@@ -1,7 +1,7 @@
-export const Hello = () => {
+export const Hello = (props) => {
   return (
     <>
-      <h1>Hello, World!!</h1>
+      <h1>Hello, {props.name} !!</h1>
       <h3>Hello, React!!</h3>
     </>
   );
